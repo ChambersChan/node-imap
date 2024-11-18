@@ -1,14 +1,17 @@
 { 
   "name": "safe-imap",
-  "version": "0.1.0",
+  "version": "0.1.2",
   "description": "Optimize vulnerabilities based on IMAP",
   "main": "./lib/Connection",
+  "types": "./lib/index.d.ts", 
   "dependencies": {
+    "@types/node": "*",
     "safe-utf7": ">=1.0.6"
   },
   "scripts": {
     "test": "node test/test.js"
   },
   "engines": { "node": ">=10.0.0" },
-  "keywords": [ "imap", "mail", "email", "reader", "client" ]
+  "keywords": [ "imap", "mail", "email", "reader", "client" ],
+  "repository": { "type": "git", "url": "http://github.com/ChambersChan/node-imap.git" }
 }
